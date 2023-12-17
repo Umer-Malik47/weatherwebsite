@@ -8,6 +8,17 @@ body {
     background-color: rgba(0, 0, 0, 0.868);
 }
 
+@media (max-width:700px) {
+    .card {
+        width: 100%;
+    }
+
+    .col p {
+        font-size: 16px;
+    }
+  
+}
+
 .card {
     width: 450px;
     background: linear-gradient(135deg, #00feba, #5b548a);
